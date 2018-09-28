@@ -3,6 +3,10 @@
 > 目标：从零开始学习 go 编程
 
 
+
+![](http://ww1.sinaimg.cn/large/741fdb86gy1fvpnhh73wsj21hc0u0dge.jpg)
+
+
 ## 主要内容
 
 - Git: 版本控制
