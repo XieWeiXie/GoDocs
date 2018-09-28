@@ -1,10 +1,15 @@
-# Gopher 编程指南
 
-> 目标：从零开始学习 go 编程
 
 
 
 ![](http://ww1.sinaimg.cn/large/741fdb86gy1fvpnhh73wsj21hc0u0dge.jpg)
+
+
+
+# Gopher 编程指南
+
+> 目标：从零开始学习 go 编程
+
 
 
 ## 主要内容
