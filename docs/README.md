@@ -22,7 +22,11 @@
 - Go : 基础知识、实例
 - docsify 文档
 - Mac 
+- GraphQL
+- RestfulAPI
 
-> 形式：文档 + 视频
+
+
+> 形式：文档 + 视频; 文档网站(https://wuxiaoxiaoshen.github.io/GoDocs/#/), 视频
 
 
