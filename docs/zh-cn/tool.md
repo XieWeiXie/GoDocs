@@ -9,3 +9,5 @@
 - PPT
 - 录制屏幕、监听耳机
 - Postman
+- dash
+- alfred
