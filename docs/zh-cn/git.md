@@ -62,3 +62,12 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 
 ```
+
+
+## Github 使用
+
+- 秘钥设置
+- 介绍：账户、仓库、信息
+
+
+## Git 和 Github
