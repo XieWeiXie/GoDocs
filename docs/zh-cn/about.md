@@ -8,8 +8,8 @@
 
 ## 哪里可以找到我？
 
-- Github()
-- 知乎()
+- Github(https://github.com/wuxiaoxiaoshen)
+- 知乎(https://www.zhihu.com/people/wu-xiao-shen-16/activities)
 - 简书～逐渐废弃～()
 - 知识星球()
 
