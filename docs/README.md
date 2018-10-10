@@ -29,5 +29,5 @@
 
 ## 形式：文档 + 视频
 
-- 文档网站(https://wuxiaoxiaoshen.github.io/GoDocs/#/)
-- 视频(https://space.bilibili.com/10056291/#/)
+- 文档网站 (https://wuxiaoxiaoshen.github.io/GoDocs/#/)
+- 视频 (https://space.bilibili.com/10056291/#/)
