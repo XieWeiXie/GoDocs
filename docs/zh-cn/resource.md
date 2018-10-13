@@ -1,8 +1,8 @@
-# 后端工程师攻略
+# 录制视频集合
 
 
 
-## 第一季
+## 后端工程师攻略 第一季
 
 1. [导言:学习方法、整体概况](https://www.bilibili.com/video/av33445011/)
 2. [Markdown:核心语法讲解](https://www.bilibili.com/video/av33445195/)
@@ -10,3 +10,10 @@
 4. [Github: 本地工作区、暂存区、远程](https://www.bilibili.com/video/av33581060)
 5. [Docsify: 构建文档](https://www.bilibili.com/video/av33581127)
 6. [阶段性总结](https://www.bilibili.com/video/av33645128)
+
+
+## 其他教程
+
+
+1. [Golang 爬虫教程](https://www.bilibili.com/video/av31551627)
+2. [Golang 实现2018年世界杯后台管理系统](https://www.bilibili.com/video/av27392519)
