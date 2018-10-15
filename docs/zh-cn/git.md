@@ -71,3 +71,15 @@ to read about a specific subcommand or concept.
 
 
 ## Git 和 Github
+
+
+## 设置
+
+```
+
+git config --local user.email "wuxiaoshen@shu.edu.cn"
+git config --global user.email "wuxiaoshen@shu.edu.cn"
+
+git config config --list
+
+```
