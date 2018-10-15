@@ -1,0 +1,76 @@
+### 文件、目录
+
+- mkdir -p
+- touch
+- cat
+- tac
+- more
+- less
+- tail -f
+- cd
+- ls
+- cp
+- rm
+- mv
+- pwd
+- chmod
+- chown
+- chgrp
+- alias
+
+
+
+### 磁盘
+
+- 单位B、 KB、MB、GB、TB、PB
+- df
+- du
+
+
+### 打包
+
+- tar
+- man tar
+
+
+### Linux 文件系统
+
+
+- /bin
+- /dev
+- /etc
+- /home
+- /lib
+- /sbin
+- /tmp
+
+
+### 包管理
+
+
+- brew install
+- brew search
+- brew list
+
+
+
+
+----
+
+
+### vi/vim
+
+> 文本编辑器
+
+#### 1. 模式
+
+- command
+- insert
+- 末行模式
+
+
+### shell
+
+- 设置
+- 环境变量
+- 脚本
