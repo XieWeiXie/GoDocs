@@ -3,9 +3,12 @@
 - 关于
   - [个人简介](zh-cn/about)
 - [开源项目](zh-cn/project)
+  - [FIFA](https://github.com/GopherCoder/FIFA-World-Cup)
+  - [GoSpider](https://github.com/GopherCoder/Go-Spider)
+  - [JianshuGo](https://github.com/wuxiaoxiaoshen/Jianshu-go)
 - [团队介绍](zh-cn/member)
-- [资源](zh-cn/resource)
-- 常用操作
+- [视频教程](zh-cn/resource)
+- CheatSheet
   - [Linux](zh-cn/cheatsheet/linux)
   - [Shell](zh-cn/cheatsheet/shell)
   - [Go](zh-cn/cheatsheet/go)
