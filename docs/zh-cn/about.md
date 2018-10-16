@@ -11,6 +11,7 @@
 - [Github](https://github.com/wuxiaoxiaoshen)
 - [知乎](https://www.zhihu.com/people/wu-xiao-shen-16/activities)
 - [简书](https://www.jianshu.com/u/58f0817209aa)
+- [Bilibili](https://space.bilibili.com/10056291/#/)
 - [知识星球]()
 - 微信：wu_xiaoshen
 - 邮箱：xie_wei_sh@foxmail.com
