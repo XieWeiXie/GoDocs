@@ -10,10 +10,11 @@
 4. [Github: 本地工作区、暂存区、远程](https://www.bilibili.com/video/av33581060)
 5. [Docsify: 构建文档](https://www.bilibili.com/video/av33581127)
 6. [阶段性总结](https://www.bilibili.com/video/av33645128)
+7. [Linux 常用操作](https://www.bilibili.com/video/av33939597)
 
 
 ### 其他教程
 
 
-1. [Golang 爬虫教程](https://www.bilibili.com/video/av31551627)
+1. [Golang 爬虫上手指南教程](https://www.bilibili.com/video/av31551627)
 2. [Golang 实现2018年世界杯后台管理系统](https://www.bilibili.com/video/av27392519)

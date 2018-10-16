@@ -32,6 +32,14 @@
 - tar
 - man tar
 
+```
+
+tar -czvf example.tar.gz /etc/example/Read.md
+
+tar -zxvf example.tar.gz -C /etc
+
+```
+
 
 ### Linux 文件系统
 
