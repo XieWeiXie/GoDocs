@@ -72,9 +72,13 @@ tar -zxvf example.tar.gz -C /etc
 
 #### 1. 模式
 
-- command
-- insert
-- 末行模式
+- 一般模式
+- 编辑模式
+- 命令行模式
+
+> 增删改查
+
+
 
 
 ### shell

@@ -5,4 +5,6 @@
 - [开源项目](zh-cn/project)
 - [团队介绍](zh-cn/member)
 - [资源](zh-cn/resource)
-- [幻灯片演示设计](zh-cn/PowerPoint/PPT/daily)
+- 常用操作
+  - [Linux](zh-cn/cheatsheet/linux)
+  - [Shell](zh-cn/cheatsheet/shell)
