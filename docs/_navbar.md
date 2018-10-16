@@ -8,3 +8,4 @@
 - 常用操作
   - [Linux](zh-cn/cheatsheet/linux)
   - [Shell](zh-cn/cheatsheet/shell)
+  - [Go](zh-cn/cheatsheet/go)
