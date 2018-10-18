@@ -11,6 +11,7 @@
 5. [Docsify: 构建文档](https://www.bilibili.com/video/av33581127)
 6. [阶段性总结](https://www.bilibili.com/video/av33645128)
 7. [Linux 常用操作](https://www.bilibili.com/video/av33939597)
+8. [Vim 常用操作](https://www.bilibili.com/video/av34063131)
 
 
 ### 其他教程
