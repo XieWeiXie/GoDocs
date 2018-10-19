@@ -3,8 +3,57 @@
 
 
 
-- 函数
-- 变量
-- 循环
-- 分支
-- 
+- 函数: 匿名函数、方法、常规函数
+- 变量: 字符串、列表、对象、map、set、数值型
+- 循环： for, while
+- 分支: if..else, break、continue
+
+```
+
+var print = function(message){
+  console.log(message)
+}
+
+var intExample = 123
+print(intExample)
+
+var floatExample = 1.23
+print(floatExample)
+
+var strExample = 'how can i learn'
+print(strExample)
+
+var listExample = [1,2,"3", '4']
+print(listExample)
+
+var objectExample = {
+  "1": "one",
+  "2": "two",
+  "3": listExample,
+  "4": function(){
+    return 4321
+  }
+}
+
+print(objectExample)
+print(objectExample["4"]())
+
+function example(message){
+  return message
+}
+
+print(example("normal function"))
+
+
+function isBool(a, b){
+  if (a > b) {
+    return true
+  }else{
+    return false
+
+  }
+}
+
+print(1,2)
+
+```
