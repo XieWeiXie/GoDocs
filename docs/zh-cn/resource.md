@@ -12,6 +12,7 @@
 6. [阶段性总结](https://www.bilibili.com/video/av33645128)
 7. [Linux 常用操作](https://www.bilibili.com/video/av33939597)
 8. [Vim 常用操作](https://www.bilibili.com/video/av34063131)
+9. [Go 基本知识](https://www.bilibili.com/video/av34339776/)
 
 
 ### 其他教程
