@@ -2,11 +2,13 @@
 
 
 
+## 语言特性
 
 - 函数: 匿名函数、方法、常规函数
 - 变量: 字符串、列表、对象、map、set、数值型
 - 循环： for, while
 - 分支: if..else, break、continue
+- 对象
 
 ```
 
@@ -57,3 +59,18 @@ function isBool(a, b){
 print(1,2)
 
 ```
+## 浏览器属性
+
+> 访问属性或者方法以 . 的形式
+**windows**
+
+- windows.InnerWidth
+- windows.InnerHeight
+
+**navigator**
+
+- navigator.appName
+- navigator.appVersion
+- navigator.userAgent
+- navigator.language
+- navigator.platform
