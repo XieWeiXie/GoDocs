@@ -2,7 +2,8 @@
 
 我叫谢伟，是一名后端工程师。
 
-[微信]()
+
+![微信](http://ww1.sinaimg.cn/large/741fdb86gy1fwpjovrs0zj20by0by3z1.jpg)
 
 
 

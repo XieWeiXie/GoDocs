@@ -45,3 +45,77 @@
 - 如何“继承” ： 组合
 - 访问属性和方法：n.Name , n.GetID()
 - 传值还是传指针
+
+
+
+接口:
+
+- 定义: 方法的集合
+- 内置 error
+
+
+## 内置库的使用
+
+
+- 字符串： strings
+- 字符串： strconv
+- 时间： time
+- 文件操作： file,os
+
+
+
+---
+
+1. 安装
+  - 源代码
+  - 设置环境变量：GOROOT, GOPATH
+2. IDE
+  - vscode
+  - goland：jetbrains
+  - 快捷键
+3. 第一个程序
+  - 整体结构
+    - 包名：package
+    - 导入：库：内置、第三方的: 路径的方式
+    - 导入未使用，重命名，排序
+    - main
+    - fmt
+
+4. 基本的语法
+  - 变量：命名：见闻知意，名词
+  - 数据类型：
+    - 数值型：整型、浮点型...
+    - 字符串：
+      - 索引index
+      - 长度
+      - 大写
+      - 小写
+      - 分隔： “a,v,b”
+      - 转换：“1”， 1， “a,v,c” ["a", "v", "c"]
+      - strings
+    - 数组
+      - [3]int
+      - [4]float
+      - [2]string
+      - 长度
+      - 取值
+    - 切片
+      - []int
+      - []float
+      - []string
+      - []interface{}
+    - map
+      - key
+      - value
+      - {"name": "xiewei"}
+      - 遍历： for ... range ...
+    - 结构体
+      - 定义： type Name struct {}
+      - 方法： Name.func
+    - 函数
+      - 功能：不用关注细节
+      - 复用
+      - 好的命名：多是动词开头 toString, doServer, doLoop
+      - 私有、公有
+    - 可理解的代码
+      

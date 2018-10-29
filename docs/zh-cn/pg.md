@@ -74,12 +74,19 @@ dropdb -U xiewei  dbname
 - 时间类型
   - 比较操作
   - 年月日时分秒：单位
-
+- 数组类型
+  - 值搜索：any
+  - 两数组操作
 
 根据表：
 
 - 单表
-- 多表：连接查询：根据表之间的共同字段等
+- 多表：连接查询：根据表之间的共同字段等: 集合的角度
+  - inner join
+  - full outer join
+  - left outer join
+  - right outer join
+
 
 ## 9. 常用操作
 
