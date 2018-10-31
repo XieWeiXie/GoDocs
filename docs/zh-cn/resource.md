@@ -14,7 +14,7 @@
 8. [Vim 常用操作](https://www.bilibili.com/video/av34063131)
 9. [Go 基本知识](https://www.bilibili.com/video/av34339776/)
 10. [Go 阶段性总结](https://www.freecodecamp.org/)
-
+11. [Go 基本数据类型](https://www.bilibili.com/video/av34965879)
 
 ### 其他教程
 
