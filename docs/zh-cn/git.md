@@ -8,7 +8,7 @@
 - 分支切换、管理、合并、删除、查看
 - 内容回滚
 - 删除内容
-- .gitignore 
+- .gitignore
 - .git/info/exclude
 
 
@@ -83,3 +83,9 @@ git config --global user.email "wuxiaoshen@shu.edu.cn"
 git config config --list
 
 ```
+
+
+## 命令集合
+
+- git blame <file>
+- git commit --amend
