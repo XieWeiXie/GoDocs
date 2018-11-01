@@ -50,5 +50,5 @@ clear 清屏
 
 ### Google  Material Design  风格主题
 
-- [Dark](docs/zh-cn/tool/zip/008_material-dark.itermcolors.zip)
-- [Design](docs/zh-cn/tool/zip/008_material-design-colors.itermcolors.zip)
+- [Dark](zh-cn/tool/zip/008_material-dark.itermcolors.zip)
+- [Design](zh-cn/tool/zip/008_material-design-colors.itermcolors.zip)
