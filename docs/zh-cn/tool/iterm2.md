@@ -46,3 +46,9 @@ ctrl + l 清屏
 ctrl + t 交换光标文本
 clear 清屏
 ```
+
+
+### Google  Material Design  风格主题
+
+- [Dark](docs/zh-cn/tool/zip/008_material-dark.itermcolors.zip)
+- [Design](docs/zh-cn/tool/zip/008_material-design-colors.itermcolors.zip)
