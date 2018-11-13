@@ -118,4 +118,9 @@
       - 好的命名：多是动词开头 toString, doServer, doLoop
       - 私有、公有
     - 可理解的代码
-      
+
+----
+
+### 内置库
+
+- strings

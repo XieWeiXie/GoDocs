@@ -12,3 +12,20 @@
 - Docker compose
 
 > 编写复杂镜像的文件
+
+
+```
+docker ps -a
+docker ps -l
+docker images
+docker attach | ctrl + P | ctrl + Q
+docker run -it -d alpine /bin/sh
+docker exec -it *** /bin/sh
+docker stop
+docker kill
+exit
+docker top dockername
+
+
+
+```

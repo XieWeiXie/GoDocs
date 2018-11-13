@@ -26,6 +26,7 @@
 |Go 阶段性总结|[Go 阶段性总结](https://www.freecodecamp.org/)|
 |Go 基本数据类型|[Go 基本数据类型](https://www.bilibili.com/video/av34965879)|
 |Go 接口、库导入、命令行|[Go 接口、库导入、命令行](https://www.bilibili.com/video/av35391979)|
+|Go 内置库 strings、strconv 的学习|[Go 内置库 strings、strconv 的学习](https://www.bilibili.com/video/av35857188/)
 
 
 
