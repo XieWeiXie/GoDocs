@@ -70,3 +70,16 @@ header|header|
 ```
 [超链接显示内容](超链接地址)
 ```
+
+
+### 8. 其他
+
+<details>
+<summary>  1. 如何展开 </summary>
+
+</details>
+
+<details>
+<summary>  2. 如何学习 </summary>
+
+</details>
