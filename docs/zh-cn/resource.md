@@ -15,6 +15,9 @@
 9. [Go 基本知识](https://www.bilibili.com/video/av34339776/)
 10. [Go 阶段性总结](https://www.freecodecamp.org/)
 11. [Go 基本数据类型](https://www.bilibili.com/video/av34965879)
+12. [Go 接口、库导入、命令行](https://www.bilibili.com/video/av35391979)
+13. [Go 内置库 strings、strconv 的学习](https://www.bilibili.com/video/av35857188/)
+14. [Go 内置库 reflect 的学习](https://www.bilibili.com/video/av36279026)
 
 ### 其他教程
 
