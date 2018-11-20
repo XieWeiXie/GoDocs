@@ -243,6 +243,27 @@ select 2 + 3 as add, 2-3 as sub, 2*3 as mul, 2/3 as dev, 2%3 as remain, 2^3 as p
 
 ```
 
+以下都是有效的布尔类型表示真假：
+
+```
+TRUE
+"t"
+"true"
+"y"
+"yes"
+"on"
+"1"
+
+FALSE
+"f"
+"false"
+"n"
+"no"
+"off"
+"0"
+
+```
+
 
 ### 4. 时间日期类型
 
@@ -346,6 +367,36 @@ extract == date_part
 
 
 ```
+
+## 操作数据
+
+> 增删改查
+
+
+```sql
+insert into example_one values (12),(13),(14);
+
+insert into example_one (one)values (15),(16);
+
+insert into example_one(one) select one from example_one;
+
+update example_one set one='1' where condition;
+
+delete from example_one where condition;
+
+delete from example_one;
+
+insert into example_one (one) values (20) returning one;
+
+```
+
+## 查询
+
+> 1. 单表、2. 多表
+
+多表操作：数学中的多维数据的集合的操作
+
+
 
 
 ### 数组
