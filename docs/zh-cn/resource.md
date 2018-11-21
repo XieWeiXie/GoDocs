@@ -18,6 +18,7 @@
 12. [Go 接口、库导入、命令行](https://www.bilibili.com/video/av35391979)
 13. [Go 内置库 strings、strconv 的学习](https://www.bilibili.com/video/av35857188/)
 14. [Go 内置库 reflect 的学习](https://www.bilibili.com/video/av36279026)
+15. [Go 内置库 encoding/json 的学习](https://www.bilibili.com/video/av36413598)
 
 ### 其他教程
 

@@ -23,11 +23,13 @@
 |Linux 常用操作|[Linux 常用操作](https://www.bilibili.com/video/av33939597)|
 |Vim 常用操作|[Vim 常用操作](https://www.bilibili.com/video/av34063131)|
 |Go 基本知识|[Go 基本知识](https://www.bilibili.com/video/av34339776/)|
-|Go 阶段性总结|[Go 阶段性总结](https://www.freecodecamp.org/)|
+|Go 阶段性总结|[Go 阶段性总结](https://www.bilibili.com/video/av34903241)|
 |Go 基本数据类型|[Go 基本数据类型](https://www.bilibili.com/video/av34965879)|
 |Go 接口、库导入、命令行|[Go 接口、库导入、命令行](https://www.bilibili.com/video/av35391979)|
 |Go 内置库 strings、strconv 的学习|[Go 内置库 strings、strconv 的学习](https://www.bilibili.com/video/av35857188/)|
 |Go 内置库 reflect 的学习|[Go 内置库 reflect 的学习](https://www.bilibili.com/video/av36279026)|
+|Go 内置库 encoding/json 的学习|[Go 内置库 encoding/json 的学习](https://www.bilibili.com/video/av36413598/)|
+
 
 
 
