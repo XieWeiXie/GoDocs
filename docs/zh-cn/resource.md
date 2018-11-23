@@ -19,6 +19,8 @@
 13. [Go 内置库 strings、strconv 的学习](https://www.bilibili.com/video/av35857188/)
 14. [Go 内置库 reflect 的学习](https://www.bilibili.com/video/av36279026)
 15. [Go 内置库 encoding/json 的学习](https://www.bilibili.com/video/av36413598)
+16. [Go 内置库 errors 的学习](http://www.bilibili.com/video/av36541153)
+
 
 ### 其他教程
 
