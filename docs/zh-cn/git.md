@@ -80,7 +80,7 @@ to read about a specific subcommand or concept.
 git config --local user.email "wuxiaoshen@shu.edu.cn"
 git config --global user.email "wuxiaoshen@shu.edu.cn"
 
-git config config --list
+git config --local --list
 
 ```
 
