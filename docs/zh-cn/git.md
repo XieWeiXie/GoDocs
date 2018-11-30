@@ -89,3 +89,4 @@ git config --local --list
 
 - git blame <file>
 - git commit --amend
+- git checkout remotes/origin/nsy-region-1128
