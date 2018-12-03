@@ -74,6 +74,9 @@ header|header|
 
 ### 8. 其他
 
+
+#### 8.1
+
 <details>
 <summary>  1. 如何展开 </summary>
 
@@ -83,3 +86,9 @@ header|header|
 <summary>  2. 如何学习 </summary>
 
 </details>
+
+#### 8.2
+
+
+
+[![写给程序员看的演示教程](http://ww1.sinaimg.cn/large/741fdb86gy1fxtbbnxdwej20uq0k6dhr.jpg)](https://www.bilibili.com/video/av37294411)
