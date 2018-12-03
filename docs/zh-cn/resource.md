@@ -21,6 +21,8 @@
 15. [Go 内置库 encoding/json 的学习](https://www.bilibili.com/video/av36413598)
 16. [Go 内置库 errors 的学习](http://www.bilibili.com/video/av36541153)
 17. [Go 内置库 time 的学习](https://www.bilibili.com/video/av36689939)
+18. [自己构建节假日API](https://www.bilibili.com/video/av37041754)
+19. [写给程序员看的演示教程](https://www.bilibili.com/video/av37294411)
 
 
 ### 其他教程
