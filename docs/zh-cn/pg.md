@@ -43,19 +43,28 @@ pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log stop -s 
 
 ```
 
+
 ## 6. 创建数据库
+
+默认的用户：xiewei
 
 ```
 
 createdb -O xiewei dbname
 
+createdb dbname -O postgres
+
 ```
 
 ## 7. 删除数据库
 
+
+默认的用户：xiewei
+
 ```
 
 dropdb -U xiewei  dbname
+dropdb dbname
 
 ```
 

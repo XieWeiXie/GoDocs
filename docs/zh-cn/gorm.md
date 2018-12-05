@@ -63,4 +63,64 @@
 
 ### 记录
 
-- 
+#### 1. has one
+
+```go
+package models
+
+import "github.com/jinzhu/gorm"
+
+type ExampleOne struct {
+	gorm.Model
+	FirstName      string       `gorm:"varchar" json:"first_name"`
+	ExampleTwo     []ExampleTwo `gorm:"many2many:example_one_two"`
+	ExampleThreeID uint
+	ExampleThree   ExampleThree
+}
+
+type ExampleTwo struct {
+	gorm.Model
+	SecondName string       `gorm:"varchar" json:"second_name"`
+	ExampleOne []ExampleOne `gorm:"many2many:example_one_two"`
+}
+
+type ExampleThree struct {
+	gorm.Model
+	FullName string `gorm:"varchar" json:"full_name"`
+}
+func insert() {
+	var one models.ExampleOne
+	var two models.ExampleTwo
+	var three models.ExampleThree
+	three = models.ExampleThree{
+		FullName: "XieWei",
+	}
+	if dbError := DB.Save(&three).Error; dbError != nil {
+		return
+	}
+	one = models.ExampleOne{
+		FirstName:      "Xie",
+		ExampleThreeID: three.ID,
+	}
+	two = models.ExampleTwo{
+		SecondName: "Wei",
+	}
+
+	if dbError := DB.Save(&one).Error; dbError != nil {
+		return
+	}
+	if dbError := DB.Save(&two).Error; dbError != nil {
+		return
+	}
+
+	DB.Model(&one).Association("ExampleTwo").Append(&two)
+	DB.Model(&one).Association("ExampleThree").Append(&three)
+	fmt.Println(one)
+}
+
+```
+
+
+#### 2. has many
+
+#### 3. many2many
