@@ -124,3 +124,17 @@ func insert() {
 #### 2. has many
 
 #### 3. many2many
+
+
+#### 4. gorm
+
+```go
+defer func() {
+	switch err {
+	case nil:
+		err = tx.Commit()
+	default:
+		tx.Rollback()
+	}
+}()
+```
