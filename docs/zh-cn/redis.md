@@ -57,5 +57,31 @@ databases
 c, err := redis.Dial("tcp", ":6379", redis.DialDatabase(0))
 接收一系列参数，其中可以选择选项
 
+```
+
+```
+>> redis-cli --raw -n 1
+
+```
+
+### 6. BitMap
+
+```
+>> setbit name:1 4 1 // name 的第4位为1
+
+>> getbit name:1 4 // name 的第4位
+
+>> bitcount name:1
+
+```
+
+### 7. 发布订阅
+
+```
+>> SUBSCRIBE channalname
+
+>> PUBLISH channaalname
+
+1对多，缺点：重新订阅不能得到全部的数据
 
 ```
