@@ -29,6 +29,11 @@ redis-cli keys "*idiom:hash*" | xargs redis-cli del
 
 ```
 
+docker 中如何删除？
+
+- 到容器内
+- 到 执行上述的命令
+
 ### 4. 占用内存查看
 
  ```

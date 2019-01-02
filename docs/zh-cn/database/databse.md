@@ -403,3 +403,12 @@ insert into example_one (one) values (20) returning one;
 
 - integer[]
 - varchar[]
+
+
+### Bit String Types
+
+
+- 设置
+- 获取
+- 操作
+- 转换：整型转 bit， bit 转整型

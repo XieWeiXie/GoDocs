@@ -124,3 +124,68 @@
 ### 内置库
 
 - strings
+
+
+### 并发
+
+- 如何启动并发：go 关键字
+- 并发如何通信：channel
+- 两个方向: 通道内存数据，或者通道内取数据，使用并发
+
+```go
+go func() {
+
+  c <- 1
+}
+
+<-c
+
+```
+
+```go
+go func(){
+
+  <-c
+}
+c <- 1
+```
+
+- 实现同步
+
+```go
+var w sync.WaitGroup
+
+w.Add(delta int)
+
+go func (){
+  defer w.Done()
+
+}
+
+w.Wait()
+
+```
+
+- 缓冲的通道
+
+
+```
+
+- runtime.GOMAXPROCS(0)：线程的个数，0 表示获取，不为 0 表示设置
+- runtime.NumGoroutine() : 协程的个数
+- runtime.NumCPU
+
+
+```
+
+- 锁
+> 解决共享内存的问题，在写操作的过程中加锁
+
+```go
+
+mux sync.Mutex
+
+mux.Lock
+mux.Unlock
+
+```
