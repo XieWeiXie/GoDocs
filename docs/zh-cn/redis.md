@@ -80,6 +80,8 @@ c, err := redis.Dial("tcp", ":6379", redis.DialDatabase(0))
 
 ```
 
+>  统计计数一般都选择的是 bit
+
 ### 7. 发布订阅
 
 ```
