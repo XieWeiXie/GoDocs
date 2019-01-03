@@ -29,3 +29,28 @@ docker top dockername
 
 
 ```
+
+
+
+
+### 常用的镜像的使用
+
+- postgres
+
+```
+>> docker run -d -p 5432:5432 ******** -d postgres
+>> docker exec -it 26bdbd43c30f /bin/sh
+>> su postgres
+>> psql -U postgres
+
+```
+
+- redis
+
+```
+>> docker run --name some-redis -d redis -p 6379:6379 redis-server --appendonly yes
+>> docker exec -it ***** redis-cli
+>> docker exec -it ****** /bin/sh
+>> redis-cli
+
+```

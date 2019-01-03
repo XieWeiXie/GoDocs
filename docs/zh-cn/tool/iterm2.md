@@ -24,6 +24,7 @@ command + d
 command + shift + d
 command + [ / ] 切换
 command + shift + h 剪切板历史
+command + ;
 ```
 
 
