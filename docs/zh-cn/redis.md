@@ -92,3 +92,11 @@ c, err := redis.Dial("tcp", ":6379", redis.DialDatabase(0))
 1对多，缺点：重新订阅不能得到全部的数据
 
 ```
+
+### 8. 启动停止
+
+```
+>> redis-server // 启动服务
+>> redis-cli shutdown // 停止服务
+
+```
