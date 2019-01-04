@@ -204,7 +204,8 @@ mux.Unlock
 ### 版本包管理
 
 - govendor
-```
+
+```go
 >> govendor init
 >> govendor add +external
 >> govendor install
@@ -213,7 +214,8 @@ mux.Unlock
 
 - dep
 
-```
+```go
+
 >> dep init // 初始化
 >> dep ensure // 添加版本
 >> dep status // 各个库的版本的信息
