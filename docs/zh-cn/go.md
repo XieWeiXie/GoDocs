@@ -199,3 +199,24 @@ mux.Unlock
 4. 构建API 从 redis 内获取结果
 
 ```
+
+
+### 版本包管理
+
+- govendor
+```
+>> govendor init
+>> govendor add +external
+>> govendor install
+
+```
+
+- dep
+
+```
+>> dep init // 初始化
+>> dep ensure // 添加版本
+>> dep status // 各个库的版本的信息
+>> dep check // 检查状态
+
+```
