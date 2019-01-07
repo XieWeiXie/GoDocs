@@ -42,6 +42,7 @@ docker top dockername
 >> docker exec -it 26bdbd43c30f /bin/sh
 >> su postgres
 >> psql -U postgres
+>> createdb databaseName
 
 ```
 

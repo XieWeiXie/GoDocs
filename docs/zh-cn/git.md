@@ -91,6 +91,7 @@ git config --local --list
 - git commit --amend
 - git checkout remotes/origin/nsy-region-1128
 - git branch -m old new
+- git config --local user.email "wuxiaoshen@shu.edu.cn"
 
 
 ## Git commit message
