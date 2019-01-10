@@ -75,3 +75,16 @@ print(1,2)
 - navigator.userAgent
 - navigator.language
 - navigator.platform
+
+
+### 选择器
+
+```
+document.querySelector("body")
+document.querySelector(".class")
+document.querySelector("#id")
+
+
+```
+
+### 时间绑定

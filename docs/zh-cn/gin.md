@@ -83,3 +83,21 @@ type PostParam struct {
 - html
 - file
 - attachment
+
+
+### HTTP POST GOLNAG
+
+```
+m := map[string]interface{}{
+  "name": "backy",
+  "species": "dog",
+}
+mJson, _ := json.Marshal(m)
+contentReader := bytes.NewReader(mJson)
+req, _ := http.NewRequest("POST", "http://example.com", contentReader)
+req.Header.Set("Content-Type", "application/json")
+req.Header.Set("Notes","GoRequest is coming!")
+client := &http.Client{}
+resp, _ := client.Do(req)
+
+```

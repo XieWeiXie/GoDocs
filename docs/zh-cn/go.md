@@ -222,3 +222,10 @@ mux.Unlock
 >> dep check // 检查状态
 
 ```
+
+### Jsonb
+
+```
+如何转变
+
+```
