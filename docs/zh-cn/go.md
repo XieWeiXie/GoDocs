@@ -229,3 +229,11 @@ mux.Unlock
 如何转变
 
 ```
+
+
+###  指定浮点型的精度
+
+```json
+strconv.FormatFloat(float64(i.Count)/float64(length)*100, 'f', 1, 32)
+
+```
