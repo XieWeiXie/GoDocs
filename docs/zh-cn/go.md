@@ -237,3 +237,37 @@ mux.Unlock
 strconv.FormatFloat(float64(i.Count)/float64(length)*100, 'f', 1, 32)
 
 ```
+
+### sql 中字符串带引号
+
+ ```
+fmt.Sprintf("'%#v'", "data")
+ ```
+
+
+ ### jsonb  的处理
+
+1. struct --> jsonb
+
+ ```
+ func (rule PostRules) JsonbLowHandler() postgres.Jsonb {
+ 	var values postgres.Jsonb
+ 	values.RawMessage, _ = json.Marshal(rule.LowRule)
+ 	return values
+ }
+
+
+
+ ```
+
+2. jsonb -- > struct
+
+```
+func (rule FrequentCustomerRule) GetHighFrequency() rulePairs {
+	var highRulePairs rulePairs
+	if err := json.Unmarshal(rule.HighFrequency.RawMessage, &highRulePairs); err != nil {
+		return nil
+	}
+	return highRulePairs
+}
+```

@@ -101,3 +101,43 @@ client := &http.Client{}
 resp, _ := client.Do(req)
 
 ```
+
+### 请求参数，可以组合形式
+
+```go
+package main
+
+import (
+	"github.com/gin-gonic/gin"
+	"net/http"
+)
+
+
+type A struct {
+	Name string `form:"name" json:"name"`
+}
+
+type B struct {
+	A
+	Age int `form:"age" json:"age"`
+}
+
+
+func main() {
+	g := gin.Default()
+	g.POST("/v1/post", func(context *gin.Context) {
+		var params B
+		if err := context.ShouldBind(&params);err!=nil{
+			return
+		}
+		context.JSON(http.StatusOK, gin.H{
+			"data": params.Name,
+			"age": params.Age,
+		})
+	})
+	g.Run(":1111")
+}
+
+
+
+```
