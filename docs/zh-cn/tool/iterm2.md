@@ -53,3 +53,10 @@ clear 清屏
 
 - [Dark](zh-cn/tool/zip/008_material-dark.itermcolors.zip)
 - [Design](zh-cn/tool/zip/008_material-design-colors.itermcolors.zip)
+
+
+### Tool
+
+![优秀的命令行工具](https://juejin.im/post/5c3dcecef265da6163024b1c)
+
+1. bat --> cat
