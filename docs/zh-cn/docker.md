@@ -55,3 +55,8 @@ docker top dockername
 >> redis-cli
 
 ```
+
+### 维护日常的容器的使用
+
+> docker/src/mongo-docker/docker-compose.yaml： 镜像启动文件
+> docker/src/mongo-docker/mongo-data : 挂载目录
