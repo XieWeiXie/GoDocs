@@ -32,3 +32,12 @@ go mod vendor
 go list -m
 
 ```
+
+example:
+```
+
+go mod init github.com/wuxiaoxiaoshen/go-emoji
+go mod tidy
+go mod vendor 
+
+```
