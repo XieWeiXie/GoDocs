@@ -60,3 +60,22 @@ docker top dockername
 
 > docker/src/mongo-docker/docker-compose.yaml： 镜像启动文件
 > docker/src/mongo-docker/mongo-data : 挂载目录
+
+### 如何学会新的镜像的使用
+
+1. docker hub 查看官方的介绍和示例
+2. 编写 Dokcerfile 文件
+3. 每个镜像的启动以 docker-compose 的方式运行，多个容器更应该这么
+
+### Dockerfile 指令
+
+- FROM
+- LABEL MAINTAINER="xiewei(1156143589@qq.com)"
+- WORKDIR
+- RUN
+- COPY(ADD)
+- CMD
+- ENDPOINT
+- ENV
+- EXPOSE
+- VOLUME
