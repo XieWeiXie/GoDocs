@@ -64,8 +64,8 @@ docker top dockername
 ### 如何学会新的镜像的使用
 
 1. docker hub 查看官方的介绍和示例
-2. 编写 Dokcerfile 文件
-3. 每个镜像的启动以 docker-compose 的方式运行，多个容器更应该这么
+2. 编写 Dockerfile 文件
+3. 每个镜像的启动以 docker-compose 的方式运行，多个容器更应该这么做
 
 ### Dockerfile 指令
 
@@ -79,3 +79,30 @@ docker top dockername
 - ENV
 - EXPOSE
 - VOLUME
+
+
+### Dockerfile golang 版模版
+
+```$xslt
+FROM golang:1.9.4
+LABEL MAINTAINER="XieWei(1156143589@qq.com)"
+
+WORKDIR ["/go/src/projectName"]
+
+COPY vendor.json vendor/vender.json
+
+COPY . .
+
+RUN go get ...
+
+RUN make install
+
+CMD ["bash", "-c", "/go/src/projectName/..."]
+
+
+
+```
+
+```$xslt
+docker build . -t=project -f path
+```

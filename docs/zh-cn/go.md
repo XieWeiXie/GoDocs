@@ -272,5 +272,3 @@ func (rule FrequentCustomerRule) GetHighFrequency() rulePairs {
 }
 ```
 
-
-SELECT person_id, date_trunc('day',max(capture_at)) as day FROM events WHERE person_id in ('a4d682977bead65f014ab13b79f5512a','dd52e2d6673987adce61005514711c16','e54eaf9cef47b7ab5a8cb4c22b3f573c') AND capture_at BETWEEN '2018-12-24 00:00:00' AND '2019-01-24 23:59:59' group by person_id ORDER BY day desc
