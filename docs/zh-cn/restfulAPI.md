@@ -46,3 +46,14 @@
 ### 删除
 
 只要知道数据 ID 即可删除数据
+
+
+## 写接口的一般模型
+
+`src/function`
+
+- params.go 参数，可以完成参数检测工作
+- assistance.go 可以完成辅助工作
+- controller.go 完成接口的主题工作
+- router.go 路由的设计和主体的控制器
+- response.go 响应信息的处理，有时候可以直接在定义 model 的 文件中直接进行 响应信息的处理
