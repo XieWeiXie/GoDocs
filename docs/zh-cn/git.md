@@ -112,3 +112,17 @@ chore：构建过程或辅助工具的变动
 :grinning:
 
 :books:
+
+## Git 如何忽略本地的文件
+
+- .gitignore
+- .git/info/exclude  + git update-index --assume-unchanged [file]
+- git update-index --skip-worktree [file]
+
+## 如何给 github 添加 tag
+
+``` 
+git tag -a v1.0 -m "comment" //  创建 tag 并添加备注
+git push origin v1.0 // 推送 tag 到远端分支
+
+```

@@ -209,6 +209,7 @@ mux.Unlock
 >> govendor init
 >> govendor add +external
 >> govendor install
+>> govendor fetch [address]
 
 ```
 
@@ -220,6 +221,21 @@ mux.Unlock
 >> dep ensure // 添加版本
 >> dep status // 各个库的版本的信息
 >> dep check // 检查状态
+
+```
+
+- mod
+
+```go
+
+go version 1.11
+
+export GO111MODULE on
+
+>> go mod init github.com/wuxiaoxiaoshen/project_name
+>> go mod tidy
+>> go mod vendor
+
 
 ```
 
