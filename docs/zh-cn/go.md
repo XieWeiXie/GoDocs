@@ -288,3 +288,5 @@ func (rule FrequentCustomerRule) GetHighFrequency() rulePairs {
 }
 ```
 
+
+### 对切片指定长度和 append 不混合使用 
