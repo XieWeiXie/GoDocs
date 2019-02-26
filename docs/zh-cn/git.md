@@ -126,3 +126,15 @@ git tag -a v1.0 -m "comment" //  创建 tag 并添加备注
 git push origin v1.0 // 推送 tag 到远端分支
 
 ```
+
+
+## 如何给开源项目提 Pull Request
+
+- fork 开源项目
+- git clone fork 之后的开源项目
+- 修改项目代码
+- git add .
+- git commit -m "message"
+- git push
+- web 端：Pull Request
+- 填写 Issue 
