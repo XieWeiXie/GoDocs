@@ -290,3 +290,53 @@ func (rule FrequentCustomerRule) GetHighFrequency() rulePairs {
 
 
 ### 对切片指定长度和 append 不混合使用 
+
+
+### 编译时用ldflags设置变量的值
+
+``` 
+package main
+
+import "fmt"
+
+var (
+    VERSION    string
+    BUILD_TIME string
+    GO_VERSION string
+)
+
+func main() {
+    fmt.Printf("%s\n%s\n%s\n", VERSION, BUILD_TIME, GO_VERSION)
+}
+
+```
+
+``` 
+go build -ldflags "-X main.VERSION=1.0.0 -X 'main.BUILD_TIME=`date`' -X 'main.GO_VERSION=`go version`'"
+
+// 1.0.0
+   2019年 2月28日 星期四 09时44分39秒 CST
+   go version go1.11 darwin/amd64
+```
+
+
+### go 交叉编译
+
+
+
+- GOOS 目标操作系统: darwin(mac)、linux、windows
+- GOARCH 目标处理器架构: 386、amd64、arm
+
+Mac to Linux
+``` 
+
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go
+
+
+``` 
+
+Linux to mac
+
+``` 
+CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build main.go
+```
