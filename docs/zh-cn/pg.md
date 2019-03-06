@@ -100,7 +100,24 @@ dropdb dbname
 ## 9. 常用操作
 
 
+## 10. 自增序列
 
+```sql
+
+CREATE TABLE "students" (
+    "id" int NOT NULL DEFAULT nextval('students_id_seq'::reglass),
+) 
+
+
+----删除前先解除 id 对该序列的依赖
+ALTER TABLE tablename ALTER COLUMN id SET DEFAULT null;
+
+DROP SEQUENCE IF EXISTS sequence_name;
+
+---- id_max 即 id 目前的最大值，可写为1，可通过 “SELECT MAX(id) FROM tablename” 得到
+CREATE SEQUENCE sequence_name START WITH id_max;
+ALTER TABLE tablename ALTER COLUMN id SET DEFAULT nextval('sequence_name'::regclass);
+```
 
 
 
