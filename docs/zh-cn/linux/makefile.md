@@ -23,3 +23,11 @@ default:
 .PHONY:  default
 
 ```
+
+1. 变量（和shell 脚本的语法一致）
+2. 命令
+3. `\` 换行
+- default
+- clean
+- .PHONY
+- 不带参数，默认执行第一个命令

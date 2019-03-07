@@ -1,0 +1,28 @@
+# expect 
+
+> 自动交互
+
+- apt-get install expect
+- spawn
+- expect
+- interact
+
+1. one.sh
+``` 
+#!/usr/bin/expect
+
+spawn  ssh *
+expect {
+  "(yes/no)" {send "yes\r"; exp_continue}
+  "password:" {send "7qVvwPVZ\r"}
+}
+
+interact
+
+```
+
+2. two.sh
+``` 
+expect ./one.sh
+
+```
