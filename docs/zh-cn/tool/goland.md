@@ -17,3 +17,4 @@
 
 - ctrl + `+/-`
 - ctrl + `]/[`  
+- ctrl + shift + f 全局搜索

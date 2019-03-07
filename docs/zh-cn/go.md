@@ -340,3 +340,23 @@ Linux to mac
 ``` 
 CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build main.go
 ```
+
+### go map 操作
+
+
+遍历则循环操作 k,v
+
+判断是否存在：v，ok
+
+``` 
+
+for k,v := range values {
+    fmt.Println(k,v)
+}
+
+for v, ok := range values["key"];!ok {
+    fmt.Println(v, ok)
+}
+```
+
+### EOF: end of file
