@@ -1,6 +1,6 @@
 # expect 
 
-> 自动交互
+> 自动交互，不可单独运行，需配合 shell 脚本运行 
 
 - apt-get install expect
 - spawn
