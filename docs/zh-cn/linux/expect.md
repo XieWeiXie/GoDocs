@@ -14,7 +14,7 @@
 spawn  ssh *
 expect {
   "(yes/no)" {send "yes\r"; exp_continue}
-  "password:" {send "7qVvwPVZ\r"}
+  "password:" {send "7qVvwPVZFS\r"}
 }
 
 interact
