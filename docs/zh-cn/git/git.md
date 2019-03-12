@@ -138,3 +138,12 @@ git push origin v1.0 // 推送 tag 到远端分支
 - git push
 - web 端：Pull Request
 - 填写 Issue 
+
+## 克隆单个文件或者文件夹
+
+- git init filepath && cd filepath // 初始化
+- git config core.sparsecheckout true // 允许克隆子目录
+- echo '文件或者文件夹' >> .git/info/sparse-checkout // 设置需要下载的文件或者文件夹
+- git remote add origin git@address // 关联远程地址
+- git pull origin master // 下载
+
