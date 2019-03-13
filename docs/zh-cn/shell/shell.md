@@ -38,3 +38,8 @@
 - expr
 - ()
 - []
+- bc // 通过管道
+    - scale
+    - ibase
+    - obase
+    - sqrt
