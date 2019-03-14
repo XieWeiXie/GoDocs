@@ -78,3 +78,11 @@ aftersuccess or afterfailure
 [OPTIONAL] after_deploy
 after_script
 ```
+
+### 如何使用 docker
+
+
+- services: docker 
+- docker build -t 
+- echo "$DOCKER_PASSWORD" | docker login -u $ --password-stdin
+- docker push ...
