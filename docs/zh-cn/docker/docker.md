@@ -30,3 +30,12 @@
 - USER
 - ONBUILD
 ## 4. 常用的容器的组件的操作
+
+
+## 5. 如何利用开源的免费服务自动构建自己的镜像
+
+- Dockerfile
+- TravisCI ：services docker 
+- Github(gitlab) + DockerHub | DaoCloud
+- Docker-compose 
+
