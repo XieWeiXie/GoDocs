@@ -39,3 +39,6 @@
 - Github(gitlab) + DockerHub | DaoCloud
 - Docker-compose 
 
+## 6.
+
+- docker rm $(sudo docker ps -a -q) # 删除停止的容器
