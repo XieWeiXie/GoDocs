@@ -360,3 +360,26 @@ for v, ok := range values["key"];!ok {
 ```
 
 ### EOF: end of file
+
+
+### Go + C 混合编程
+
+1. 直接嵌入，适合少量 c 代码的场景
+2. 导入动态库的形式
+
+```
+#cgo CFLAGS: -I 路径
+#cgo LDFLAGS: -L 路径 -l 名称
+
+```
+3. 直接引用
+
+```
+#include "文件名称"
+```
+
+4. syscall
+
+```
+
+```
