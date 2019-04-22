@@ -381,5 +381,6 @@ for v, ok := range values["key"];!ok {
 4. syscall
 
 ```
+syscall.NewLazyDLL
 
 ```
