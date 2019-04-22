@@ -124,6 +124,7 @@ chore：构建过程或辅助工具的变动
 ``` 
 git tag -a v1.0 -m "comment" //  创建 tag 并添加备注
 git push origin v1.0 // 推送 tag 到远端分支
+git push origin --delete tag v1.1.8beta0
 
 ```
 
