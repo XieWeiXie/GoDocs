@@ -37,5 +37,15 @@ p : 前一窗口
 w : 以菜单的方式显示和选择窗口
 x : 关闭窗口
 & : 关闭窗口
+s : 以菜单的方式显示和选择窗口
+d : 退出 tumx
+
+```
+
+```
+tmux new -s session
+tmux new -s session -d
+tmux ls
+tmux attach -t session
 
 ```
