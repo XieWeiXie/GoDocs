@@ -150,3 +150,14 @@ git push origin --delete tag v1.1.8beta0
 
 
 ## Git 工作流
+
+## 项目迁移
+
+
+```
+.git/config
+remote "origin"
+   url = 新项目地址
+
+执行：git push -u origin master
+```
