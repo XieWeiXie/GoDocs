@@ -50,3 +50,7 @@ tmux ls
 tmux attach -t session
 
 ```
+
+```
+:set -g mouse on 滚动屏幕
+```
