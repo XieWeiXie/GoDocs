@@ -1,0 +1,16 @@
+###
+GET http://localhost:9999/hello?query=age&name=x HTTP/1.1
+
+
+###
+POST http://localhost:9999/hello/post?query=name HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+username=Go
+&password=Hello
+
+
+
+### 
+GET https://retail.readsense.cn:8080/v2/api/shopping_mall/menus/homepage HTTP/1.1
+Authorization: Bearer bcf5e40fc1ffb567466ab123a072b5f0cf705f67

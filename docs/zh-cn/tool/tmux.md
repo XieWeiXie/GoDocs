@@ -48,7 +48,7 @@ tmux new -s session
 tmux new -s session -d
 tmux ls
 tmux attach -t session
-
+tmux kill-session -t basic // 关闭
 ```
 
 ```

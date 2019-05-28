@@ -123,3 +123,14 @@ ALTER TABLE tablename ALTER COLUMN id SET DEFAULT nextval('sequence_name'::regcl
 
 
 - [官方文档](https://www.postgresql.org/)
+
+## 导出
+
+```
+\o name.txt
+query
+\o
+
+copy (query) to 'filepath/filename.txt' 
+
+```
