@@ -12,5 +12,5 @@ username=Go
 
 
 ### 
-GET https://retail.readsense.cn:8080/v2/api/shopping_mall/menus/homepage HTTP/1.1
+GET http://localhost:8081/v2/api/shopping_mall/menus/homepage HTTP/1.1
 Authorization: Bearer bcf5e40fc1ffb567466ab123a072b5f0cf705f67
