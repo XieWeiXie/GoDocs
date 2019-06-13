@@ -19,6 +19,8 @@ select group_uuid from frequent_customer_groups where company_id in (select id f
 
 
 
-1. 注册会员超时
-2. 回头客
 
+
+
+
+select c.deleted_at, c.person_id, c.customer_group_id, g.group_id from customers as c inner join customer_groups as g on c.deleted_at between '2019-05-23 00:00:00' and '2019-06-13 23:59:59' and c.customer_group_id = g.id;
