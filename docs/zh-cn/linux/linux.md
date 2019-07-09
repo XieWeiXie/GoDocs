@@ -158,3 +158,81 @@ Ctrl +v
 - 设置
 - 环境变量
 - 脚本
+
+
+### sed
+
+```
+// 第一行
+
+sed -n '1p' passwd1
+
+// 第n,m 行
+
+sed -n '1,3p' passwd1
+
+// 过滤
+
+sed -n '/a/p' passwd1
+
+sed -n '/a/,/b/p' passwd1
+
+// 1,5行，并打印行号
+sed -n '1,5p' -e '=' passwd1
+
+// 替换
+
+sed -e 's/a/A/g' a.txt
+
+
+// 删除 行
+
+sed '1d' a.txt
+sed '1,3d' a.txt
+
+// 过滤删除行
+sed '/a/d' a.txt
+
+
+// 更新
+
+sed -i '_bak' 's/a/A/g' a.txt
+
+// 替换
+
+sed 'y/old/new/' a.txt
+```
+
+### tr
+
+```
+cat passwd1 | tr '[a-z]' '[A-Z]'
+
+cat passwd1 | tr '[:lower:]' '[:upper:]'
+
+cat passwd1 | tr -d '@'
+
+cat passwd1 | tr -d '\n'
+```
+
+### cut
+
+```
+cat passwd1 | cut -f 1 -d '@'
+```
+
+### sort
+
+```
+- r: 反向
+- n: 数字
+- t: 分割符
+- k: 第几列
+```
+
+### grep
+
+
+
+### awk
+
