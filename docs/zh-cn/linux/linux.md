@@ -236,3 +236,22 @@ cat passwd1 | cut -f 1 -d '@'
 
 ### awk
 
+
+
+
+
+
+
+
+### 开发 三个客流报表
+
+- 抓拍记录查询: done
+- 去重客流查询：done
+- 识别列表记录：时间：since , then // done
+
+62c10ad7e78ac62de163abb27ef04cfa3e15637c
+01962a6c730b7b5cf4d9ecc4484aff4f782a6c2d
+4ea885624796c4b166cd0b3e07bae8e2a2f9749b
+
+
+01962a6c730b7b5cf4d9ecc4484aff4f782a6c2d
